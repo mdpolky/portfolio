@@ -1,0 +1,29 @@
+.timeline {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  font-size: 12px;
+}
+
+.year {
+  font-weight: bold;
+  margin-right: 20px;
+  min-width: 100px;
+}
+
+.event {
+  flex-grow: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
